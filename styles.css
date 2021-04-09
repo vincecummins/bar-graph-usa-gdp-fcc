@@ -1,0 +1,27 @@
+body {
+    font-family: Verdana;
+    text-align: center;
+}
+.tooltip{
+  position: absolute;
+  max-width: 200px;
+  height: auto;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 4px 4px 15px #000;
+  pointer-events: none;
+  text-align: center;
+}
+
+.bigger-text {
+    font-weight: bold;
+}
+
+.gdp {
+    font-size: 0.8em;
+}
+
+.bar:hover {
+    fill: white;
+}
